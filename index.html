@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond Sky Glance</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body id="home">
+  <div id="audio-controls">
+    <i id="play-pause" class="fas fa-play"></i>
+    <audio id="audio" src="Flow  Nomyn (No Copyright Music).mp3" preload="auto" autoplay></audio>
+</div>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#examples">Examples</a></li>
+            <li><a onclick="scrollToBottom()" >Buy Now</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <br><h1 class="ok">Want to have your house's picture from the top sky view?</h1><br>
+    <section class="home"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <a onclick="scrollToBottom()" class="gradient-button">Order Picture >></a>
+    </section>
+    <section id="about" class="about">
+        <div class="text">
+          <h1 class="h1">What is it about?</h1>
+          <p class="p">Want a picture of your house from the sky view?<br> Here is our drone to help you out!<br>
+            You can order a hard copy, hard copy with the frame, or just a<br> digital copy of the picture,
+            once you fill the order picture form,<br> our drone will be clicking a picture of your house from the sky view,<br>
+            The photo can be delivered to you in the form of a digital photo, <br>or hard copy or a hard copy with the photo frame.<br>The items will be delivered within 3 to 4 working days.<br>
+            Once you order, you cannot cancel it, also within 48 hrs,<br> you will get a reply back regarding which photo to select out of<br> 3 clicked pictures. If you fail to reply, then we select the best picture,<br> as the product. For the payment, as of now it is only Cash on Delivery,<br>
+            Our services are limited to only Villa Orchids, Kowkoor, Hyderabad 500010,<br>
+            Make your drone Sky Snap Dreams come true with us!
+          </p>
+        </div>
+        <img onload="tuki()" class="img" src="logo.jpg" alt="Logo">
+      </section><br><br><br><br>
+<section ><h1 class="h1" id="examples">Here are a few examples.</h1>
+<br><br><img class="exa" style="margin-left: 150px;" src="bbd0104f9bf14b24ee9034c5dc4f3440.jpg">
+<img class="exa" style="margin-left: 170px;" src="William_Kaven_Skyview-18.jpg">
+<img class="exa" style="margin-left: 150px; margin-top: 100px;" src="sky-view-homestay-darjeeling-home-stay-koies0cjhp.jpg">
+<img style="margin-left: 170px; margin-top: 100px; border-radius: 30px; width: 300px; height: 350px;" src="fstoppers-drone-uav-portraits-phantom-musicians-classical-music-_1.jpg"></section>
+<br><br><h1 class="h1" id="contact"># Contact us</h1><br><br>
+<div class="spa">
+  <div class="spap"><h1 class="lo">Great Contacting us!<br>Make your drone Sky Snap<br> Dreams come true with us!</h1>
+  <center><img class="ci" src="imageg.jpg"></center></div>
+  
+  <button onclick="con()"  class="box"><h1 class="loo">Click to Email us! on a1adityasoni@gmail.com</h1></button>
+</div>
+<br><br><br><br><br>
+<div class="d"><center><button onclick="scrollToBottom()" class="btnn">Purchase!</button></center></div>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<center>
+
+  <form action="https://formsubmit.co/a1adityasoni@gmail.com" method="POST">
+    <input type="text" name="Name" placeholder="Enter your name" required>
+    <input type="tel" name="Mobile" placeholder="Enter your mobile number" required>
+    <select style="height: 60px; font-size: 15px; padding-left: 15px;" name="Product Type" placeholder="Product Type">
+      <option value="" selected>Choose Product Type</option>
+      <option value="Product Type">Digital photo 1920x1080 pixels ₹25</option>
+      <option value="Product Type">Hard Copy Photo 5x7 inches ₹40</option>
+      <option value="Product Type">Hard Copy Photo With Photo Frame 5x7 inches ₹200</option>
+  </select>
+    <input type="number" name="Quantity" placeholder="Enter Quantity (you get photos from different angles)" required>
+    <input type="email" name="Email" placeholder="Enter your email address" required>
+    <input type="text" name="Addres" placeholder="Enter your Delivery Addres (Villa number)" required>
+    <select style="height: 60px; font-size: 15px; padding-left: 15px;" name="Contact" placeholder="Where should we contact you? Whatsapp or Email?">
+        <option value="" selected>Choose Contact</option>
+        <option value="Whatsapp">Whatsapp</option>
+        <option value="Email">Email</option>
+    </select>
+    <button style="border-radius: 30px; background-color: red; color: white; font-weight: bolder;">Place Order</button><br>
+    </form></center>
+</body>
+
+
+
+
+
+
+<script>
+function con() {
+            // Replace 'email@example.com' with the recipient's email address
+            var recipientEmail = 'a1adityasoni@gmail.com';
+
+            // Replace other parameters as needed (subject, body, etc.)
+            var subject = 'Subject';
+            var body = 'Body of the email';
+
+            // Construct the mailto: URL
+            var mailtoLink = 'mailto:' + recipientEmail + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+
+            // Open the user's default email client with the mailto: link
+            window.location.href = mailtoLink;
+        }
+        function scrollToBottom() {
+      // Scroll to the bottom of the page
+      window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: 'smooth' // Optional: Use smooth scrolling
+      });
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+    const audio = document.getElementById('audio');
+    const playPauseButton = document.getElementById('play-pause');
+
+    playPauseButton.addEventListener('click', function () {
+        if (audio.paused) {
+            audio.play();
+        } else {
+            audio.pause();
+        }
+        togglePlayPauseButton();
+    });
+
+    audio.addEventListener('play', togglePlayPauseButton);
+    audio.addEventListener('pause', togglePlayPauseButton);
+
+    function togglePlayPauseButton() {
+        if (audio.paused) {
+            playPauseButton.classList.remove('fa-pause');
+            playPauseButton.classList.add('fa-play');
+        } else {
+            playPauseButton.classList.remove('fa-play');
+            playPauseButton.classList.add('fa-pause');
+        }
+    }
+});
+
+function tuki(){
+  audio.addEventListener('play', togglePlayPauseButton);
+}
+
+
+</script>
+
+
+
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #618080, #ffffff);
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px 0;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    text-align: right;
+    margin-right: 100px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 15px;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 100px; /* Adjust the spacing between navigation items as needed */
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  a:hover {
+    color: #ffcc00; /* Change the color on hover as desired */
+  }
+  
+  
+  .home {
+    background-image: url('imageg.jpg'); /* Replace 'your-image-url.jpg' with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 750px; /* Adjust the height as needed */
+    color: white; /* Set the text color to contrast with the background */
+    text-align: center;
+    padding: 50px;
+  }
+  .gradient-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ff00f2, #01ffdd); /* Adjust colors as needed */
+    color: #fff;
+    border: 5px solid #00ff0d; /* Border color matches the start color of the gradient */
+    transition: background 0.3s ease;
+  }
+
+  .gradient-button:hover {
+    background: linear-gradient(to right, #ff8800, #00ff15); /* Swap colors on hover */
+  }
+  .h1{
+      text-align: center;
+      font-weight: bolder;
+      font-size: 50px;
+  }
+  .p{
+      color: black;
+      font-weight: bolder;
+      font-size: 20px;
+      margin-left: 100px;
+  }
+  .img{
+      border-radius: 50px;
+      margin-right: 60px;
+  }
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .about .text {
+    max-width: 60%;
+  }
+
+  .about .img {
+    max-width: 30%;
+    height: auto;
+}
+.exa{
+    width: 550px;
+    height: 300px;
+    border-radius: 40px;
+}
+.spa{
+  width: 1500px;
+  height: 400px;
+  margin-left: 10px;
+  border-radius: 60px;
+  background-color:black; 
+  position: absolute;
+}
+.spap{
+  width: 600px;
+  height: 350px;
+  margin-left: 20px;
+  margin-top: 25px;
+  border-radius: 60px;
+  background: linear-gradient(to right, #00d9ff, #011aff);
+  display: inline-block;
+}
+.box{
+  border-radius: 60px;
+  background: linear-gradient(to right, #00d9ff, #011aff);
+  display: inline-block;
+  width: 30%;
+  height: 30%;
+  margin: 1%;
+}
+.lo{
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+}
+.ci{
+  width: 170px;
+  height: 100px;
+  border-radius: 30px;
+}
+.loo{
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+.loo:hover {
+  color: #ffcc00; /* Change the color on hover as desired */
+}
+.d{
+  background: linear-gradient(to right, #00d9ff, #ff01b3);
+  width: 1500px;
+  height: 300px;
+  margin-right: 30px;
+  border-radius: 100px;
+  margin-top: 300px;
+}
+.btnn{
+  border-radius: 30px;
+  color: black;
+  background-color: greenyellow;
+  width: 300px;
+  height: 70px;
+  font-weight: bolder;
+  margin-top: 150px;
+  font-size: 30px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #001660;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+form h3{
+    color: #555;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+
+}
+form button{
+    padding: 15px;
+    background: #ff5361;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 350px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+#audio-controls {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #333; /* Adjust background color as needed */
+    color: #fff; /* Adjust text color as needed */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#play-pause {
+    font-size: 24px; /* Adjust the size as needed */
+    margin-right: 10px; /* Add spacing if needed */
+}
+.ok{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
+  background: linear-gradient(to right, #00d9ff, #ff01b3,rgb(73, 255, 1));
+}
+
+
+</style>
+
+
+
+</html>
